@@ -60,6 +60,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.prismcampus.app.data.CampusMapGeometry
 import com.prismcampus.app.data.Building
 import com.prismcampus.app.data.PrismPack
 import com.prismcampus.app.data.ResolvedClassDestination
@@ -84,16 +85,13 @@ fun OfflineCampusCanvasMap(
     onBuildingSelected: ((Building) -> Unit)? = null,
     modifier: Modifier = Modifier
 ) {
-    // Campus bounding box coordinates centered around MSRIT (13.0303, 77.5647)
-    // Main Gate (13.0295, 77.5650), Apex (13.0303, 77.5647), ESB (13.0313, 77.5648), LHC (13.0324, 77.5659)
-    val minLat = 13.0288
-    val maxLat = 13.0335
-    val minLng = 77.5635
-    val maxLng = 77.5670
-
-    var scale by remember { mutableFloatStateOf(1.1f) }
-    var offset by remember { mutableStateOf(Offset.Zero) }
-    var selectedBuilding by remember { mutableStateOf<Building?>(null) }
+    val bounds = remember(pack) { CampusMapGeometry.bounds(pack) }
+    val pins = remember(pack) { CampusMapGeometry.pins(pack) }
+    val minLat = bounds.minLat; val maxLat = bounds.maxLat
+    val minLng = bounds.minLng; val maxLng = bounds.maxLng
+    var scale by remember(pack?.campusId, bounds) { mutableFloatStateOf(1f) }
+    var offset by remember(pack?.campusId, bounds) { mutableStateOf(Offset.Zero) }
+    var selectedBuilding by remember(pack?.campusId) { mutableStateOf<Building?>(null) }
 
     val transformableState = rememberTransformableState { zoomChange, panChange, _ ->
         scale = (scale * zoomChange).coerceIn(0.6f, 3.5f)
@@ -122,19 +120,14 @@ fun OfflineCampusCanvasMap(
             modifier = Modifier
                 .fillMaxSize()
                 .transformable(state = transformableState)
-                .pointerInput(Unit) {
+                .pointerInput(pack?.campusId, bounds, pins, scale, offset) {
                     detectTapGestures { tapOffset ->
                         val width = size.width
                         val height = size.height
-                        pack?.buildings?.forEach { b ->
-                            val pinX = lngToX(b.longitude, minLng, maxLng, width.toFloat(), scale, offset.x)
-                            val pinY = latToY(b.latitude, minLat, maxLat, height.toFloat(), scale, offset.y)
-                            val distance = (Offset(pinX, pinY) - tapOffset).getDistance()
-                            if (distance < 60f) {
-                                selectedBuilding = b
-                                onBuildingSelected?.invoke(b)
-                                return@detectTapGestures
-                            }
+                        CampusMapGeometry.nearest(pins,bounds,tapOffset.x,tapOffset.y,
+                            width.toFloat(),height.toFloat(),scale,offset.x,offset.y,40.dp.toPx())?.let { b ->
+                            selectedBuilding = b
+                            onBuildingSelected?.invoke(b)
                         }
                     }
                 }
@@ -146,18 +139,17 @@ fun OfflineCampusCanvasMap(
             drawCampusGround(canvasW, canvasH, scale, offset)
 
             // 2. Project Base Anchors
-            val mainGateX = lngToX(13.0295, 77.5650, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset).first
-            val mainGateY = lngToX(13.0295, 77.5650, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset).second
+            val mainGateX = lngToX(pack?.baseLocation?.latitude ?: 0.0, pack?.baseLocation?.longitude ?: 0.0, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset).first
+            val mainGateY = lngToX(pack?.baseLocation?.latitude ?: 0.0, pack?.baseLocation?.longitude ?: 0.0, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset).second
 
-            drawCampusAvenues(canvasW, canvasH, minLat, maxLat, minLng, maxLng, scale, offset)
 
             // 3. Draw Building Footprints & Markers
-            pack?.buildings?.forEach { b ->
+            pins.sortedBy { if (it.code == activeDestination?.buildingCode) 1 else 0 }.forEach { b ->
                 val (bx, by) = lngToX(b.latitude, b.longitude, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset)
                 val isTarget = activeDestination?.buildingCode.equals(b.code, ignoreCase = true)
 
-                val bWidth = 84f * scale
-                val bHeight = 52f * scale
+                val bWidth = (if (pins.size > 12) 28f else 84f) * scale
+                val bHeight = (if (pins.size > 12) 24f else 52f) * scale
                 val rectLeft = bx - bWidth / 2
                 val rectTop = by - bHeight / 2
 
@@ -198,19 +190,19 @@ fun OfflineCampusCanvasMap(
                         isFakeBoldText = true
                         textAlign = android.graphics.Paint.Align.CENTER
                     }
-                    drawText(b.code, bx, by + 4f * scale, paint)
+                    drawText(b.code.removePrefix("DEPT_").removePrefix("SCHOOL_"), bx, by - 12f * scale, paint)
 
                     val subPaint = android.graphics.Paint().apply {
                         color = android.graphics.Color.rgb(148, 163, 184)
                         textSize = (9f * scale).coerceIn(14f, 22f)
                         textAlign = android.graphics.Paint.Align.CENTER
                     }
-                    drawText(b.name, bx, by + bHeight / 2 + 16f, subPaint)
+                    if (isTarget || scale > 1.8f) drawText(b.name, bx, by + bHeight / 2 + 16f, subPaint)
                 }
             }
 
             // 4. Resolve Navigation Origin (User GPS location vs Main Gate)
-            val hasUserGps = userLatitude != null && userLongitude != null
+            val hasUserGps = userLatitude != null && userLongitude != null && bounds.contains(userLatitude,userLongitude)
             val startCoords = if (hasUserGps) {
                 lngToX(userLatitude!!, userLongitude!!, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset)
             } else {
@@ -304,9 +296,17 @@ fun OfflineCampusCanvasMap(
                     isFakeBoldText = true
                     textAlign = android.graphics.Paint.Align.CENTER
                 }
-                drawText("MAIN GATE", mainGateX, mainGateY + 28f, gatePaint)
+                drawText(pack?.baseLocation?.name ?: "Campus reference", mainGateX, mainGateY + 28f, gatePaint)
             }
         }
+
+        Text(
+            text = "${pins.size} GPS pins · offline campus map",
+            color = CyberEmerald,
+            style = MaterialTheme.typography.labelSmall,
+            modifier = Modifier.align(Alignment.BottomStart).padding(12.dp)
+                .background(PrismSurface).padding(6.dp)
+        )
 
         // Top Floating Indoor Floor Badge
         if (activeDestination != null) {
@@ -348,14 +348,14 @@ fun OfflineCampusCanvasMap(
         ) {
             SmallFloatingActionButton(
                 onClick = {
-                    scale = 1.1f
+                    scale = 1f
                     offset = Offset.Zero
                 },
                 containerColor = PrismSurface,
                 contentColor = CyberEmerald,
                 shape = CircleShape
             ) {
-                Icon(Icons.Default.GpsFixed, contentDescription = "Center Map")
+                Icon(Icons.Default.GpsFixed, contentDescription = "Show all campus pins")
             }
         }
 
@@ -390,13 +390,13 @@ fun OfflineCampusCanvasMap(
                         }
                     }
                     Text(
-                        text = "${building.totalFloors} Academic Floors • ${building.description}",
+                        text = "GPS: ${building.latitude}, ${building.longitude} • ${building.description}",
                         style = MaterialTheme.typography.bodySmall,
                         color = TextSecondary
                     )
                     Spacer(modifier = Modifier.height(6.dp))
                     Text(
-                        text = "Rooms: ${building.rooms.joinToString { it.name }}",
+                        text = if (building.rooms.isEmpty()) "Building pin · room details not provided" else "Rooms: ${building.rooms.joinToString { it.name }}",
                         style = MaterialTheme.typography.labelSmall,
                         color = ElectricBlue
                     )
@@ -434,36 +434,6 @@ private fun DrawScope.drawCampusGround(width: Float, height: Float, scale: Float
     }
 }
 
-private fun DrawScope.drawCampusAvenues(
-    canvasW: Float,
-    canvasH: Float,
-    minLat: Double,
-    maxLat: Double,
-    minLng: Double,
-    maxLng: Double,
-    scale: Float,
-    offset: Offset
-) {
-    val p1 = lngToX(13.0292, 77.5650, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset)
-    val p2 = lngToX(13.0305, 77.5649, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset)
-    val p3 = lngToX(13.0326, 77.5658, minLat, maxLat, minLng, maxLng, canvasW, canvasH, scale, offset)
-
-    drawLine(
-        color = PrismSurfaceVariant,
-        start = Offset(p1.first, p1.second),
-        end = Offset(p2.first, p2.second),
-        strokeWidth = 16f * scale,
-        cap = StrokeCap.Round
-    )
-    drawLine(
-        color = PrismSurfaceVariant,
-        start = Offset(p2.first, p2.second),
-        end = Offset(p3.first, p3.second),
-        strokeWidth = 14f * scale,
-        cap = StrokeCap.Round
-    )
-}
-
 // Convert GPS (Lat, Lng) to Screen Canvas Coordinates
 private fun lngToX(
     lat: Double,
@@ -477,19 +447,9 @@ private fun lngToX(
     scale: Float,
     offset: Offset
 ): Pair<Float, Float> {
-    val normX = ((lng - minLng) / (maxLng - minLng)).toFloat()
-    val normY = (1.0f - ((lat - minLat) / (maxLat - minLat)).toFloat())
-
-    val centerX = width / 2f
-    val centerY = height / 2f
-
-    val rawX = normX * width
-    val rawY = normY * height
-
-    val projectedX = (rawX - centerX) * scale + centerX + offset.x
-    val projectedY = (rawY - centerY) * scale + centerY + offset.y
-
-    return Pair(projectedX, projectedY)
+    val point = CampusMapGeometry.project(lat,lng,
+        CampusMapGeometry.Bounds(minLat,maxLat,minLng,maxLng),width,height,scale,offset.x,offset.y)
+    return Pair(point.x, point.y)
 }
 
 private fun lngToX(lng: Double, minLng: Double, maxLng: Double, width: Float, scale: Float, offsetX: Float): Float {

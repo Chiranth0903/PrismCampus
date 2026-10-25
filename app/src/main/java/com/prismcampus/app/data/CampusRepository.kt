@@ -62,7 +62,7 @@ class CampusRepository(private val context: Context) {
             val perCampusFile = File(context.filesDir, "campus_${campusId}.prismpack")
             val customFile = File(context.filesDir, CUSTOM_PACK_FILENAME)
 
-            val pack: PrismPack = when {
+            var pack: PrismPack = when {
                 perCampusFile.exists() -> {
                     val json = perCampusFile.readText()
                     gson.fromJson(json, PrismPack::class.java)
@@ -77,6 +77,15 @@ class CampusRepository(private val context: Context) {
                             gson.fromJson(reader, PrismPack::class.java)
                         }
                     }
+                }
+            }
+            if (campusId == "IITG_DEMO" && pack.campusId == campusId) {
+                val bundled = context.assets.open("iitg_demo_pack.json").bufferedReader().use { gson.fromJson(it,PrismPack::class.java) }
+                val existingCodes = pack.buildings.map { it.code }.toSet()
+                val added = bundled.buildings.filter { it.code !in existingCodes }
+                if (added.isNotEmpty()) {
+                    pack = pack.copy(buildings = pack.buildings + added)
+                    perCampusFile.writeText(gson.toJson(pack))
                 }
             }
             _prismPack.value = pack

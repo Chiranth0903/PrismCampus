@@ -12,6 +12,8 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -131,6 +133,13 @@ fun CampusMapScreen(
     var activeDestinationOverride by remember { mutableStateOf<ResolvedClassDestination?>(targetDestination) }
     var tourAudioNarrationText by remember { mutableStateOf<String?>(null) }
     var showRoomPickerDialog by remember { mutableStateOf(false) }
+    var placeSearch by remember(pack?.campusId) { mutableStateOf("") }
+
+    fun selectBuildingDirectly(building: Building) {
+        activeBuildingOverride = building
+        activeDestinationOverride = null
+        showRoomPickerDialog = false
+    }
 
     var selectedFloor by remember { mutableIntStateOf(targetDestination?.floor ?: 0) }
     val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
@@ -281,7 +290,7 @@ fun CampusMapScreen(
                             if (isSimulated) "GPS: Simulated at ${pack?.shortName ?: "campus"}"
                             else "GPS: Live Lat ${String.format("%.4f", currentLocation!!.latitude)}, Lng ${String.format("%.4f", currentLocation!!.longitude)}"
                         } else {
-                            "GPS: Searching signal (Using Main Gate anchor)"
+                            "GPS: Searching signal (Using campus reference)"
                         },
                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold, fontSize = 10.sp),
                         color = if (currentLocation != null) CyberEmerald else AmberAlert
@@ -324,7 +333,7 @@ fun CampusMapScreen(
                         .padding(horizontal = 8.dp, vertical = 3.dp)
                 ) {
                     Text(
-                        text = "Pick Room",
+                        text = "Places (${pack?.buildings?.size ?: 0})",
                         style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.Bold),
                         color = TextPrimary
                     )
@@ -547,8 +556,7 @@ fun CampusMapScreen(
                 onBuildingSelected = { building ->
                     activeBuildingOverride = building
                     activeDestinationOverride = null
-                    showSheet = true
-                    handleTourQuery(building.name)
+                    showSheet = false
                 }
             )
         }
@@ -618,50 +626,39 @@ fun CampusMapScreen(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Icon(Icons.Default.Search, contentDescription = null, tint = ElectricBlue, modifier = Modifier.size(20.dp))
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Select Any Room on Campus", style = MaterialTheme.typography.titleMedium, color = TextPrimary)
+                    Text("Campus places & rooms", style = MaterialTheme.typography.titleMedium, color = TextPrimary)
                 }
             },
             text = {
-                LazyColumn(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(350.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    pack?.buildings?.forEach { b ->
-                        item {
-                            Text(
-                                text = "${b.name} (${b.code})",
-                                style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                                color = CyberEmerald,
-                                modifier = Modifier.padding(top = 6.dp)
-                            )
+                Column {
+                    Text("${pack?.buildings?.size ?: 0} saved GPS pins", color = CyberEmerald)
+                    OutlinedTextField(
+                        value = placeSearch, onValueChange = { placeSearch = it },
+                        placeholder = { Text("Search building, room or code") },
+                        singleLine = true, modifier = Modifier.fillMaxWidth()
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    LazyColumn(Modifier.fillMaxWidth().height(350.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        val matches = pack?.buildings.orEmpty().filter { b ->
+                            placeSearch.isBlank() || b.name.contains(placeSearch,true) || b.code.contains(placeSearch,true) ||
+                                b.rooms.any { it.roomId.contains(placeSearch,true) || it.name.contains(placeSearch,true) }
                         }
-                        items(b.rooms) { r ->
-                            Row(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .clip(RoundedCornerShape(8.dp))
-                                    .background(PrismSurface)
-                                    .border(1.dp, PrismBorder, RoundedCornerShape(8.dp))
-                                    .clickable { selectRoomDirectly(b, r) }
-                                    .padding(horizontal = 10.dp, vertical = 8.dp),
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
-                                Column {
-                                    Text(
-                                        text = "${r.name} (${r.floorLabel})",
-                                        style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
-                                        color = TextPrimary
-                                    )
-                                    Text(
-                                        text = r.description,
-                                        style = MaterialTheme.typography.bodySmall.copy(fontSize = 10.sp),
-                                        color = TextSecondary
-                                    )
+                        if (matches.isEmpty()) item { Text("No matching places",color=TextSecondary) }
+                        matches.forEach { b ->
+                            item(key = "building:" + b.code) {
+                                Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
+                                    .background(PrismSurface).clickable { selectBuildingDirectly(b) }.padding(10.dp)) {
+                                    Text("${b.name} (${b.code})",color=CyberEmerald,fontWeight=FontWeight.Bold)
+                                    Text("GPS: ${b.latitude}, ${b.longitude}",color=TextSecondary,fontSize=11.sp)
+                                    Text("Select building pin",color=ElectricBlue,fontSize=11.sp)
                                 }
-                                Icon(Icons.Default.DirectionsWalk, contentDescription = null, tint = ElectricBlue, modifier = Modifier.size(16.dp))
+                            }
+                            items(b.rooms.filter { it.roomId != "LOCATION_TBC" },key = { b.code + ":" + it.roomId }) { r ->
+                                Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
+                                    .background(PrismSurface).clickable { selectRoomDirectly(b,r) }.padding(10.dp)) {
+                                    Text("${r.name} (${r.floorLabel})",color=TextPrimary,fontWeight=FontWeight.SemiBold)
+                                    Text(r.description,color=TextSecondary,fontSize=10.sp)
+                                }
                             }
                         }
                     }
@@ -686,6 +683,8 @@ fun CampusMapScreen(
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .heightIn(max = 480.dp)
+                    .verticalScroll(rememberScrollState())
                     .padding(16.dp)
             ) {
                 Text(
@@ -713,7 +712,6 @@ fun CampusMapScreen(
                                 activeBuildingOverride = b
                                 activeDestinationOverride = null
                                 showSheet = false
-                                handleTourQuery(b.name)
                             }
                             .padding(10.dp)
                     ) {

@@ -4,7 +4,7 @@ Dashboard: **https://prismcampus-iv0v8tfxx2.agent37.app**. Sign in as **admin** 
 
 Android campus ID: **IITG_77356889E768**. The APK includes the public registry address. MSRIT remains separate.
 
-IITG has 14 first-year groups, 262 weekly entries, 18 map places and 12 room entries including a TBC placeholder. Weekly theory times are provisional, pins approximate and floors unverified. Unknown lab destinations cannot be routed. Review before real travel.
+IITG has 14 first-year groups, 262 weekly entries, 34 map places and 12 room entries including a TBC placeholder. Weekly theory times are provisional, pins approximate and floors unverified. Unknown lab destinations cannot be routed. Review before real travel.
 
 ## Local Wi-Fi
 

@@ -2150,7 +2150,43 @@ HTML_DASHBOARD = """<!DOCTYPE html>
       document.getElementById('mr-bldg').innerHTML = opts;
     }
 
+    function renderGpsPins() {
+      const host=document.getElementById('buildings-tree-container');
+      let map=document.getElementById('gps-pin-map');
+      if(!map){map=document.createElement('section');map.id='gps-pin-map';host.before(map);}
+      const pins=(currentCampusData?.buildings||[]).filter(b=>Number.isFinite(b.latitude)&&Number.isFinite(b.longitude)&&Math.abs(b.latitude)<=90&&Math.abs(b.longitude)<=180&&(b.latitude!==0||b.longitude!==0));
+      if(!pins.length){map.textContent='No GPS pins saved for this campus.';return;}
+      const lats=pins.map(b=>b.latitude),lngs=pins.map(b=>b.longitude);
+      const latPad=Math.max((Math.max(...lats)-Math.min(...lats))*.18,.0005);
+      const lngPad=Math.max((Math.max(...lngs)-Math.min(...lngs))*.18,.0005);
+      const south=Math.min(...lats)-latPad,north=Math.max(...lats)+latPad,west=Math.min(...lngs)-lngPad,east=Math.max(...lngs)+lngPad;
+      map.innerHTML=`<div style="padding:16px;margin-bottom:20px;background:var(--bg);border:1px solid var(--border);border-radius:12px;">
+        <h3 style="color:var(--emerald);margin-bottom:6px;">${pins.length} saved GPS pins</h3>
+        <p style="color:var(--text-muted);font-size:12px;margin-bottom:12px;">Offline coordinate map • Select a marker or choose a place below. Pins are approximate; no street tiles are required.</p>
+        <svg id="campus-gps-map" role="img" aria-label="${pins.length} campus GPS pins" viewBox="0 0 960 420" style="width:100%;max-height:360px;background:#0E1626;border-radius:8px;">
+          <text x="16" y="24" fill="#94A3B8" font-size="14">N ↑</text>
+          ${pins.map(b=>{const x=(b.longitude-west)/(east-west)*960,y=(north-b.latitude)/(north-south)*420;
+            return `<g data-pin-code="${escapeHtml(b.code)}" tabindex="0" role="button" aria-label="${escapeHtml(b.name)}" style="cursor:pointer;"><title>${escapeHtml(b.name)}: ${b.latitude}, ${b.longitude}</title><circle cx="${x}" cy="${y}" r="7" fill="#00F0A8" stroke="#070B14" stroke-width="2"/>${b.code.startsWith('CORE')?`<text x="${x+10}" y="${y-8}" fill="#F1F5F9" font-size="12">${escapeHtml(b.code)}</text>`:''}</g>`;}).join('')}
+        </svg>
+        <label style="display:block;font-size:12px;margin-top:12px;">Find a building / place
+          <select id="gps-place-select" style="width:100%;margin-top:6px;">${pins.map(b=>`<option value="${escapeHtml(b.code)}">${escapeHtml(b.name)} (${escapeHtml(b.code)})</option>`).join('')}</select>
+        </label><p id="gps-place-detail" style="color:var(--blue);font-size:13px;margin-top:12px;"></p>
+        <a id="gps-place-link" target="_blank" rel="noopener noreferrer" style="color:var(--emerald);font-size:12px;">Open selected pin in OpenStreetMap ↗</a>
+      </div>`;
+      function selectPin(code){
+        const b=pins.find(p=>p.code===code);if(!b)return;
+        document.getElementById('gps-place-select').value=code;
+        document.getElementById('gps-place-detail').textContent=b.name+' — Latitude '+b.latitude+', Longitude '+b.longitude;
+        document.getElementById('gps-place-link').href='https://www.openstreetmap.org/?mlat='+b.latitude+'&mlon='+b.longitude+'#map=18/'+b.latitude+'/'+b.longitude;
+        map.querySelectorAll('[data-pin-code]').forEach(g=>{const circle=g.querySelector('circle');circle.setAttribute('fill',g.dataset.pinCode===code?'#38BDF8':'#00F0A8');circle.setAttribute('r',g.dataset.pinCode===code?'10':'7');});
+      }
+      document.getElementById('gps-place-select').onchange=e=>selectPin(e.target.value);
+      map.querySelectorAll('[data-pin-code]').forEach(g=>{g.onclick=()=>selectPin(g.dataset.pinCode);g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectPin(g.dataset.pinCode);}};});
+      selectPin(pins[0].code);
+    }
+
     function renderBuildingsTree() {
+      renderGpsPins();
       const container = document.getElementById('buildings-tree-container');
       const bldgs = currentCampusData?.buildings || [];
       if (bldgs.length === 0) {
