@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PrismCampus</string>
+    <string name="campus_title">MSRIT Bengaluru</string>
+    <string name="nav_home">Schedule</string>
+    <string name="nav_ocr">Snap OCR</string>
+    <string name="nav_map">Campus Map</string>
+    <string name="nav_admin">Agent 37</string>
+</resources>

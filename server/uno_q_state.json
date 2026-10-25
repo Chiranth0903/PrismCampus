@@ -1,0 +1,99 @@
+{
+  "node_id": "UNO_Q_MSRIT_CORE_01",
+  "campus_name": "Ramaiah Institute of Technology (MSRIT)",
+  "location": "Apex Block Gate / Central Server Rack",
+  "started_at": 1792677266063,
+  "messages": [
+    {
+      "id": "msg_demo_1",
+      "title": "Cultural Fest 'Udbhav 2026' Registrations Opened",
+      "priority": "Important",
+      "audience": "All Students",
+      "content": "Stage events, music, and dance team registrations are now open on the official portal (https://msrit.edu).",
+      "timestamp": 1792675466063
+    },
+    {
+      "id": "msg_demo_2",
+      "title": "Central Library Extended Hours",
+      "priority": "General",
+      "audience": "All Students & Faculty",
+      "content": "Apex Annex Central Library will remain open until 10:00 PM for internal assessment preparations.",
+      "timestamp": 1792670066063
+    }
+  ],
+  "announcements": [
+    {
+      "id": "anno_demo_1",
+      "targetCourseCode": "MAC11",
+      "targetSection": "A",
+      "newBuildingCode": "LHC",
+      "newBuildingName": "Lecture Hall Complex",
+      "newRoomId": "LHC Room 212",
+      "newFloor": 2,
+      "newFloorLabel": "2nd Floor",
+      "reason": "MAC11 shifted to LHC Room 212 for guest lecture series (Dean Notice).",
+      "timestamp": 1792675466063
+    }
+  ],
+  "report_clusters": [
+    {
+      "id": "cluster_hostel_fan",
+      "cluster_key": "hostel_mess_electrical_fan",
+      "category": "Electrical",
+      "building": "Hostel Complex",
+      "room": "Hostel Mess",
+      "title": "Hostel mess fan broken / vibrating loudly",
+      "description": "Ceiling fan in the hostel mess is vibrating dangerously and making loud grinding noise.",
+      "report_count": 5,
+      "urgency": "CRITICAL (Escalated to Head of Maintenance - 5 Reports)",
+      "escalated": true,
+      "first_reported": 1792670066063,
+      "last_reported": 1792677292608,
+      "resolved": false,
+      "reporters": [
+        "Pixel_8_Student",
+        "Galaxy_S23_Student",
+        "OnePlus_11_Student",
+        "iPhone_Client",
+        "Chiranth_Phone_Test"
+      ]
+    },
+    {
+      "id": "cluster_esb_402_fan",
+      "cluster_key": "esb_402_electrical_fan",
+      "category": "Electrical",
+      "building": "Engineering Sciences Block",
+      "room": "Room 402",
+      "title": "CAD Lab fan regulator sparking / speed stuck",
+      "description": "Fan switch board sparking when turned on in ESB 402.",
+      "report_count": 2,
+      "urgency": "High",
+      "escalated": false,
+      "first_reported": 1792666466063,
+      "last_reported": 1792673666063,
+      "resolved": false,
+      "reporters": [
+        "Student_Laptop_Sync",
+        "Vivo_Y200_Student"
+      ]
+    },
+    {
+      "id": "cluster_apex_3f_tap",
+      "cluster_key": "apex_3f_plumbing_tap",
+      "category": "Plumbing",
+      "building": "Apex Block",
+      "room": "AB-3F-Washroom",
+      "title": "Apex Block 3rd floor washroom tap leaking",
+      "description": "Continuous water leakage causing floor flooding.",
+      "report_count": 1,
+      "urgency": "Medium",
+      "escalated": false,
+      "first_reported": 1792662866063,
+      "last_reported": 1792662866063,
+      "resolved": false,
+      "reporters": [
+        "Galaxy_A54_Student"
+      ]
+    }
+  ]
+}

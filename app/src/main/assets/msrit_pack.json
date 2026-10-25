@@ -1,0 +1,315 @@
+{
+  "pack_version": "1.0.0",
+  "generated_at": "2026-10-21T00:00:00Z",
+  "campus_name": "Ramaiah Institute of Technology (MSRIT)",
+  "short_name": "MSRIT",
+  "website": "https://msrit.edu",
+  "city": "Bengaluru",
+  "country": "India",
+  "base_location": {
+    "name": "Main Gate",
+    "latitude": 13.0295,
+    "longitude": 77.5650,
+    "description": "Primary campus entrance on MSRIT Road / New BEL Road"
+  },
+  "buildings": [
+    {
+      "id": "apex_block",
+      "code": "AB",
+      "name": "Apex Block",
+      "latitude": 13.0303,
+      "longitude": 77.5647,
+      "total_floors": 7,
+      "description": "Central academic complex housing Computer Science, Information Science, AIML and Core Engineering laboratories.",
+      "rooms": [
+        {
+          "room_id": "AB-501",
+          "name": "AB-501",
+          "floor": 3,
+          "floor_label": "3rd Floor",
+          "building_code": "AB",
+          "category": "classroom",
+          "assigned_section": "A",
+          "department": "Computer Science & Engineering",
+          "description": "Section A CSE Default Classroom"
+        },
+        {
+          "room_id": "AB-504",
+          "name": "AB-504",
+          "floor": 3,
+          "floor_label": "3rd Floor",
+          "building_code": "AB",
+          "category": "classroom",
+          "assigned_section": "D",
+          "department": "Information Science & Engineering",
+          "description": "Section D ISE Default Classroom"
+        },
+        {
+          "room_id": "AB-514",
+          "name": "AB-514",
+          "floor": 3,
+          "floor_label": "3rd Floor",
+          "building_code": "AB",
+          "category": "classroom",
+          "assigned_section": "I",
+          "department": "Artificial Intelligence & Machine Learning",
+          "description": "Section I AIML Default Classroom"
+        },
+        {
+          "room_id": "Room 602",
+          "name": "Room 602",
+          "floor": 4,
+          "floor_label": "4th Floor",
+          "building_code": "AB",
+          "category": "laboratory",
+          "assigned_course": "PYC12",
+          "department": "Physics",
+          "description": "Engineering Physics Laboratory"
+        },
+        {
+          "room_id": "Room 703",
+          "name": "Room 703",
+          "floor": 5,
+          "floor_label": "5th Floor",
+          "building_code": "AB",
+          "category": "laboratory",
+          "assigned_course": "PSCLCS18",
+          "department": "Computer Science & Engineering",
+          "description": "Problem Solving with C Programming Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "eng_sciences_block",
+      "code": "ESB",
+      "name": "Engineering Sciences Block",
+      "latitude": 13.0313,
+      "longitude": 77.5648,
+      "total_floors": 5,
+      "description": "Mechanical, Civil & Engineering Sciences block hosting advanced CAD/CAM and prototyping labs.",
+      "rooms": [
+        {
+          "room_id": "Room 402",
+          "name": "Room 402",
+          "floor": 4,
+          "floor_label": "4th Floor",
+          "building_code": "ESB",
+          "category": "laboratory",
+          "assigned_course": "MELC19",
+          "department": "Mechanical Engineering",
+          "description": "Computer Aided Design (CAD) Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "lecture_hall_complex",
+      "code": "LHC",
+      "name": "Lecture Hall Complex",
+      "latitude": 13.0324,
+      "longitude": 77.5659,
+      "total_floors": 4,
+      "description": "Multi-tier lecture theatres and Humanities/Professional development centers.",
+      "rooms": [
+        {
+          "room_id": "Room 212",
+          "name": "Room 212",
+          "floor": 2,
+          "floor_label": "2nd Floor",
+          "building_code": "LHC",
+          "category": "laboratory",
+          "assigned_course": "HSCP15",
+          "department": "Humanities",
+          "description": "Professional Communication & Soft Skills Laboratory"
+        }
+      ]
+    }
+  ],
+  "lab_routing_rules": [
+    {
+      "course_code": "MELC19",
+      "building_code": "ESB",
+      "building_name": "Engineering Sciences Block",
+      "room_id": "Room 402",
+      "floor": 4,
+      "floor_label": "4th Floor",
+      "description": "Computer Aided Design (CAD) Lab"
+    },
+    {
+      "course_code": "HSCP15",
+      "building_code": "LHC",
+      "building_name": "Lecture Hall Complex",
+      "room_id": "Room 212",
+      "floor": 2,
+      "floor_label": "2nd Floor",
+      "description": "Soft Skills & Language Lab"
+    },
+    {
+      "course_code": "PYC12",
+      "building_code": "AB",
+      "building_name": "Apex Block",
+      "room_id": "Room 602",
+      "floor": 4,
+      "floor_label": "4th Floor",
+      "description": "Physics Laboratory"
+    },
+    {
+      "course_code": "PSCLCS18",
+      "building_code": "AB",
+      "building_name": "Apex Block",
+      "room_id": "Room 703",
+      "floor": 5,
+      "floor_label": "5th Floor",
+      "description": "Problem Solving with C Lab"
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "A",
+      "name": "Section A",
+      "department": "Computer Science & Engineering",
+      "default_room_id": "AB-501",
+      "default_building_code": "AB",
+      "default_floor": 3,
+      "schedule": {
+        "MONDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ramesh K." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sunitha M." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Harish B." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Dr. Pradeep N." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "PSCLCS18", "course_name": "C Programming Lab (Batch A1)", "instructor": "Prof. Ananya V.", "is_lab": true }
+        ],
+        "TUESDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Harish B." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ramesh K." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sunitha M." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ENG16", "course_name": "Professional English", "instructor": "Dr. Malini S." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "MELC19", "course_name": "CAD Lab (Batch A2)", "instructor": "Dr. Venkatesh R.", "is_lab": true }
+        ],
+        "WEDNESDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Dr. Pradeep N." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ramesh K." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Harish B." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sunitha M." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "PYC12", "course_name": "Physics Lab (PYC12L)", "instructor": "Dr. Sunitha M.", "is_lab": true }
+        ],
+        "THURSDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sunitha M." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Dr. Pradeep N." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ramesh K." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Harish B." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "HSCP15", "course_name": "Soft Skills Lab", "instructor": "Dr. Kavitha S.", "is_lab": true }
+        ],
+        "FRIDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ramesh K." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sunitha M." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Dr. Pradeep N." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Harish B." },
+          { "period": 5, "start_time": "14:00", "end_time": "15:30", "course_code": "KAN17", "course_name": "Balake Kannada / Samskruthika", "instructor": "Prof. Basavaraj M." }
+        ],
+        "SATURDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engg Mathematics Tutorial", "instructor": "Dr. Ramesh K." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "ELE13", "course_name": "Electrical Systems Workshop", "instructor": "Prof. Harish B." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:30", "course_code": "CIP18", "course_name": "Constitution of India & Prof Ethics", "instructor": "Adv. Sneha Rao" }
+        ]
+      }
+    },
+    {
+      "section_id": "D",
+      "name": "Section D",
+      "department": "Information Science & Engineering",
+      "default_room_id": "AB-504",
+      "default_building_code": "AB",
+      "default_floor": 3,
+      "schedule": {
+        "MONDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Girish C." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Meenakshi V." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Kiran Kumar" },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Dr. Somashekar" },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "MELC19", "course_name": "CAD Lab (Batch D1)", "instructor": "Prof. Dayanand", "is_lab": true }
+        ],
+        "TUESDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Meenakshi V." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Kiran Kumar" },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Dr. Somashekar" },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Girish C." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "PSCLCS18", "course_name": "C Programming Lab (Batch D2)", "instructor": "Prof. Roopa T.", "is_lab": true }
+        ],
+        "WEDNESDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Dr. Somashekar" },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Girish C." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Meenakshi V." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "HSCP15", "course_name": "Soft Skills Lab", "instructor": "Prof. Nandini G.", "is_lab": true },
+          { "period": 5, "start_time": "14:00", "end_time": "15:30", "course_code": "KAN17", "course_name": "Balake Kannada", "instructor": "Prof. Basavaraj M." }
+        ],
+        "THURSDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Meenakshi V." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Dr. Somashekar" },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Girish C." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Kiran Kumar" },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "PYC12", "course_name": "Physics Lab (PYC12L)", "instructor": "Dr. Girish C.", "is_lab": true }
+        ],
+        "FRIDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Kiran Kumar" },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Meenakshi V." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Girish C." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ENG16", "course_name": "Professional English", "instructor": "Dr. Malini S." },
+          { "period": 5, "start_time": "14:00", "end_time": "15:30", "course_code": "CIP18", "course_name": "Constitution of India", "instructor": "Adv. Sneha Rao" }
+        ],
+        "SATURDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "ELE13", "course_name": "Electrical Systems Workshop", "instructor": "Dr. Somashekar" },
+          { "period": 2, "start_time": "10:00", "end_time": "11:15", "course_code": "MAT11", "course_name": "Engg Math Tutorial", "instructor": "Dr. Meenakshi V." }
+        ]
+      }
+    },
+    {
+      "section_id": "I",
+      "name": "Section I",
+      "department": "Artificial Intelligence & Machine Learning",
+      "default_room_id": "AB-514",
+      "default_building_code": "AB",
+      "default_floor": 3,
+      "schedule": {
+        "MONDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Chandrashekar" },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sujatha P." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ravindra B." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Harsha V." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "HSCP15", "course_name": "Soft Skills Lab", "instructor": "Prof. Nandini G.", "is_lab": true }
+        ],
+        "TUESDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ravindra B." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Chandrashekar" },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Harsha V." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sujatha P." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "PYC12", "course_name": "Physics Lab (PYC12L)", "instructor": "Dr. Sujatha P.", "is_lab": true }
+        ],
+        "WEDNESDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Harsha V." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ravindra B." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sujatha P." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Chandrashekar" },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "MELC19", "course_name": "CAD Lab (Batch I1)", "instructor": "Prof. Santosh", "is_lab": true }
+        ],
+        "THURSDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sujatha P." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ravindra B." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "ELE13", "course_name": "Basic Electrical Engineering", "instructor": "Prof. Chandrashekar" },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "ENG16", "course_name": "Professional English", "instructor": "Dr. Malini S." },
+          { "period": 5, "start_time": "14:00", "end_time": "16:00", "course_code": "PSCLCS18", "course_name": "C Programming Lab (Batch I2)", "instructor": "Dr. Deepa K.", "is_lab": true }
+        ],
+        "FRIDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Engineering Mathematics - I", "instructor": "Dr. Ravindra B." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:00", "course_code": "CIV14", "course_name": "Elements of Civil Engg", "instructor": "Prof. Harsha V." },
+          { "period": 3, "start_time": "11:15", "end_time": "12:15", "course_code": "PYC12", "course_name": "Engineering Physics", "instructor": "Dr. Sujatha P." },
+          { "period": 4, "start_time": "12:15", "end_time": "13:15", "course_code": "CIP18", "course_name": "Constitution of India", "instructor": "Adv. Sneha Rao" },
+          { "period": 5, "start_time": "14:00", "end_time": "15:30", "course_code": "KAN17", "course_name": "Balake Kannada", "instructor": "Prof. Basavaraj M." }
+        ],
+        "SATURDAY": [
+          { "period": 1, "start_time": "09:00", "end_time": "10:00", "course_code": "MAT11", "course_name": "Math Tutorial & Mentorship", "instructor": "Dr. Ravindra B." },
+          { "period": 2, "start_time": "10:00", "end_time": "11:30", "course_code": "AI_INTRO", "course_name": "Intro to AI & Edge Devices", "instructor": "Prof. Karthik G." }
+        ]
+      }
+    }
+  ]
+}

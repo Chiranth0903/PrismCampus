@@ -1,0 +1,15 @@
+.git
+.gradle
+.tools
+artifacts
+**/build
+**/.cxx
+**/__pycache__
+**/.env.local
+**/.env
+server/bin
+server/models
+server/*.db
+server/*.db-*
+app/src/main/cpp
+app/src/main/assets/*.zip

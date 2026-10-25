@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="prism_primary">#0F172A</color>
+    <color name="prism_accent">#10B981</color>
+    <color name="prism_surface">#1E293B</color>
+</resources>

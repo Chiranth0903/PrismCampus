@@ -1,0 +1,49 @@
+# Local build caches and generated Android files
+.gradle/
+.tools/
+**/build/
+**/.cxx/
+local.properties
+__pycache__/
+*.pyc
+
+# Private configuration (keep the safe example templates)
+.env*
+!.env.example
+!**/.env.example
+
+# APKs, profiling captures, temporary previews and local exports
+*.apk
+*.aab
+artifacts/
+presentation_build/
+*.log
+*.hprof
+*.heapdump
+
+# Local server executables and downloaded model weights
+server/bin/
+server/models/
+
+# Runtime databases, login sessions and database backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Signing credentials and private keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+id_rsa
+id_ed25519
+
+# Machine-specific IDE state
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

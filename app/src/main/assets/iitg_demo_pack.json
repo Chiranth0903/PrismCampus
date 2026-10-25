@@ -1,0 +1,4974 @@
+{
+  "pack_version": "1.0.0-demo",
+  "generated_at": "2026-10-25",
+  "campus_id": "IITG_DEMO",
+  "campus_name": "Indian Institute of Technology Guwahati · demo backup",
+  "short_name": "IITG Demo",
+  "website": "https://www.iitg.ac.in/",
+  "city": "Guwahati",
+  "country": "India",
+  "description": "First-year demo backup, July–November 2026; post-midsem view. Verify before real travel.",
+  "base_location": {
+    "name": "Core 5 demo anchor",
+    "latitude": 26.1857341,
+    "longitude": 91.6893545,
+    "description": "Approximate OpenStreetMap building centre, not the main gate."
+  },
+  "buildings": [
+    {
+      "id": "LIBCC",
+      "code": "LIBCC",
+      "name": "Library & Computer Centre (approximate pin)",
+      "latitude": 26.1893128,
+      "longitude": 91.6929648,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/node/4584953590",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "ACADEMIC",
+      "code": "ACADEMIC",
+      "name": "Academic Complex",
+      "latitude": 26.1859266,
+      "longitude": 91.6915599,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121451174",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "ADMIN",
+      "code": "ADMIN",
+      "name": "Administrative Block",
+      "latitude": 26.1901691,
+      "longitude": 91.692083,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121451183",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "DIHING",
+      "code": "DIHING",
+      "name": "Dihing Hostel",
+      "latitude": 26.1879223,
+      "longitude": 91.6993741,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121455426",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "SIANG",
+      "code": "SIANG",
+      "name": "Siang Hostel",
+      "latitude": 26.189325,
+      "longitude": 91.6965525,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121455432",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "SUBANSIRI",
+      "code": "SUBANSIRI",
+      "name": "Subansiri Hostel",
+      "latitude": 26.1927956,
+      "longitude": 91.6948311,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121455433",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "KAPILI",
+      "code": "KAPILI",
+      "name": "Kapili Hostel",
+      "latitude": 26.1885265,
+      "longitude": 91.6962489,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121455436",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "MANAS",
+      "code": "MANAS",
+      "name": "Manas Hostel",
+      "latitude": 26.1887584,
+      "longitude": 91.6997948,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/121455439",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "AUDITORIUM",
+      "code": "AUDITORIUM",
+      "name": "Bhupen Hazarika Auditorium",
+      "latitude": 26.1909947,
+      "longitude": 91.6930517,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/144431212",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "SAC",
+      "code": "SAC",
+      "name": "Student Activity Center",
+      "latitude": 26.1931402,
+      "longitude": 91.695882,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/158011014",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "FOOD",
+      "code": "FOOD",
+      "name": "Food Court",
+      "latitude": 26.1924474,
+      "longitude": 91.6993392,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/363651727",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "BRAHMAPUTRA",
+      "code": "BRAHMAPUTRA",
+      "name": "Brahmaputra Hostel",
+      "latitude": 26.1863681,
+      "longitude": 91.6994819,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/368852086",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "WORKSHOP",
+      "code": "WORKSHOP",
+      "name": "Mechanical Workshop",
+      "latitude": 26.1870115,
+      "longitude": 91.6895729,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/517935377",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "LOHIT",
+      "code": "LOHIT",
+      "name": "Lohit Hostel",
+      "latitude": 26.1892351,
+      "longitude": 91.6986435,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/640770642",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "HOSPITAL",
+      "code": "HOSPITAL",
+      "name": "IITG Hospital",
+      "latitude": 26.1966414,
+      "longitude": 91.6974773,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/684576018",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "CONFERENCE",
+      "code": "CONFERENCE",
+      "name": "Conference Hall",
+      "latitude": 26.1910665,
+      "longitude": 91.6924717,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/684576023",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "LHC",
+      "code": "LHC",
+      "name": "Lecture Halls",
+      "latitude": 26.1889896,
+      "longitude": 91.6914607,
+      "total_floors": 0,
+      "rooms": [],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/684576024",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "CORE5",
+      "code": "CORE5",
+      "name": "Core 5",
+      "latitude": 26.1857341,
+      "longitude": 91.6893545,
+      "total_floors": 0,
+      "rooms": [
+        {
+          "room_id": "5301",
+          "name": "Classroom 5301",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5302",
+          "name": "Classroom 5302",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5303",
+          "name": "Classroom 5303",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5304",
+          "name": "Classroom 5304",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5305",
+          "name": "Classroom 5305",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5306",
+          "name": "Classroom 5306",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5402",
+          "name": "Classroom 5402",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5403",
+          "name": "Classroom 5403",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5404",
+          "name": "Classroom 5404",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5405",
+          "name": "Classroom 5405",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "5406",
+          "name": "Classroom 5406",
+          "floor": 0,
+          "floor_label": "Floor unverified",
+          "building_code": "CORE5",
+          "category": "classroom",
+          "description": "Room number from official first-year PDF; Core 5 grouping inferred from room code, verify on site."
+        },
+        {
+          "room_id": "LOCATION_TBC",
+          "name": "Lab location to be confirmed",
+          "floor": 0,
+          "floor_label": "Location unconfirmed",
+          "building_code": "CORE5",
+          "category": "laboratory"
+        }
+      ],
+      "description": "OpenStreetMap point / footprint centre; not a verified entrance. Floor information unverified.",
+      "source_url": "https://www.openstreetmap.org/way/912248054",
+      "coordinate_accuracy": "approximate building point; verify on site"
+    },
+    {
+      "id": "DEPT_BSBE",
+      "code": "DEPT_BSBE",
+      "name": "Department of Biosciences & Bioengineering",
+      "latitude": 26.185364,
+      "longitude": 91.691865,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-bsbe",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_CL",
+      "code": "DEPT_CL",
+      "name": "Department of Chemical Engineering",
+      "latitude": 26.185135,
+      "longitude": 91.691105,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-che",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_CH",
+      "code": "DEPT_CH",
+      "name": "Department of Chemistry",
+      "latitude": 26.185829,
+      "longitude": 91.691832,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-chem",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_CE",
+      "code": "DEPT_CE",
+      "name": "Department of Civil Engineering",
+      "latitude": 26.184742,
+      "longitude": 91.691813,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-ce",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_CSE",
+      "code": "DEPT_CSE",
+      "name": "Department of Computer Science & Engineering",
+      "latitude": 26.187035,
+      "longitude": 91.691896,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-cse",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_DESIGN",
+      "code": "DEPT_DESIGN",
+      "name": "Department of Design",
+      "latitude": 26.18777,
+      "longitude": 91.691848,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-design",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_EEE",
+      "code": "DEPT_EEE",
+      "name": "Department of Electronics & Electrical Engineering",
+      "latitude": 26.186568,
+      "longitude": 91.691831,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-eee",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_HSS",
+      "code": "DEPT_HSS",
+      "name": "Department of Humanities & Social Sciences",
+      "latitude": 26.186615,
+      "longitude": 91.691153,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-hss",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_MATH",
+      "code": "DEPT_MATH",
+      "name": "Department of Mathematics",
+      "latitude": 26.187074,
+      "longitude": 91.691139,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-math",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_ME",
+      "code": "DEPT_ME",
+      "name": "Department of Mechanical Engineering",
+      "latitude": 26.187568,
+      "longitude": 91.691356,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-me",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "DEPT_PH",
+      "code": "DEPT_PH",
+      "name": "Department of Physics",
+      "latitude": 26.18474,
+      "longitude": 91.691153,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "dept-phy",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "SCHOOL_ENERGY",
+      "code": "SCHOOL_ENERGY",
+      "name": "School of Energy Science and Engineering",
+      "latitude": 26.185838,
+      "longitude": 91.691168,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "school-sese",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "CORE1",
+      "code": "CORE1",
+      "name": "Core 1",
+      "latitude": 26.187867,
+      "longitude": 91.691483,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "core-1",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "CORE2",
+      "code": "CORE2",
+      "name": "Core 2",
+      "latitude": 26.186831,
+      "longitude": 91.691501,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "core-2",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "CORE3",
+      "code": "CORE3",
+      "name": "Core 3",
+      "latitude": 26.185749,
+      "longitude": 91.691515,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "core-3",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    },
+    {
+      "id": "CORE4",
+      "code": "CORE4",
+      "name": "Core 4",
+      "latitude": 26.184689,
+      "longitude": 91.691477,
+      "total_floors": 0,
+      "rooms": [],
+      "source_url": "https://spinlabiitg.github.io/iitg_umap/",
+      "source_place_id": "core-4",
+      "coordinate_source_url": "https://spinlabiitg.github.io/iitg_umap/data/places.json",
+      "source_status": "tagged",
+      "coordinate_accuracy": "approximate community-mapped point; verify on site",
+      "description": "Approximate academic-building/department pin from the IITG SPIN Lab community map. Not a verified entrance or lab allocation. Floor information unverified."
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "FY_CSE",
+      "name": "Year 1 · Computer Science and Engineering",
+      "department": "Computer Science and Engineering",
+      "default_room_id": "5405",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CS1113",
+            "course_name": "Introduction to Programming",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1501H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EE1105H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1114L",
+            "course_name": "Programming Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CS1115",
+            "course_name": "Discrete Mathematics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CS1113",
+            "course_name": "Introduction to Programming",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1501H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "EE1105H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CS1115",
+            "course_name": "Discrete Mathematics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CS1113",
+            "course_name": "Introduction to Programming",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1501H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "EE1105H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CS1115",
+            "course_name": "Discrete Mathematics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1113",
+            "course_name": "Introduction to Programming",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1501H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "EE1105H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5405"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "EE1109L",
+            "course_name": "Basic Electronics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_ECE",
+      "name": "Year 1 · Electronics and Communication Engineering",
+      "department": "Electronics and Communication Engineering",
+      "default_room_id": "5403",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1502H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "EE1113",
+            "course_name": "Circuit Theory",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "ME1101",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "CS1101",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1310H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1502H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EE1113",
+            "course_name": "Circuit Theory",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "CS1101",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1101",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1310H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1502H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1105L",
+            "course_name": "Programming and Data Structures Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "EE1113",
+            "course_name": "Circuit Theory",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1101",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1310H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "EE1114L",
+            "course_name": "Electronics Workshop · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1502H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "EE1113",
+            "course_name": "Circuit Theory",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1101",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1101",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5403"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_EEE",
+      "name": "Year 1 · Electronics and Electrical Engineering",
+      "department": "Electronics and Electrical Engineering",
+      "default_room_id": "5302",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CS1102",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1503H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "EE1115",
+            "course_name": "Principles of Electrical Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "ME1102",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1311H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CS1102",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1503H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EE1115",
+            "course_name": "Principles of Electrical Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1102",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1311H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CS1102",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1503H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "EE1116L",
+            "course_name": "Electrical Workshop · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "EE1115",
+            "course_name": "Principles of Electrical Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1102",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1311H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1102",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1106L",
+            "course_name": "Programming and Data Structures Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1503H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "EE1115",
+            "course_name": "Principles of Electrical Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1102",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_ME",
+      "name": "Year 1 · Mechanical Engineering",
+      "department": "Mechanical Engineering",
+      "default_room_id": "5303",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1112",
+            "course_name": "Engineering Materials",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1504H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EE1106H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "CS1103",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1112",
+            "course_name": "Engineering Materials",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1504H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "CS1103",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "EE1110L",
+            "course_name": "Basic Electronics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "EE1106H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1112",
+            "course_name": "Engineering Materials",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1504H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "EE1106H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "ME1112",
+            "course_name": "Engineering Materials",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1504H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "EE1106H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1103",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5303"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1107L",
+            "course_name": "Programming and Data Structures Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_CE",
+      "name": "Year 1 · Civil Engineering",
+      "department": "Civil Engineering",
+      "default_room_id": "5404",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CE1102",
+            "course_name": "Probability and Statistics in Civil Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1505H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CE1104",
+            "course_name": "Introduction to Geospatial Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CE1103",
+            "course_name": "Structural Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CE1102",
+            "course_name": "Probability and Statistics in Civil Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1505H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CE1104",
+            "course_name": "Introduction to Geospatial Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "CE1101",
+            "course_name": "Introduction to Civil Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CE1103",
+            "course_name": "Structural Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CE1102",
+            "course_name": "Probability and Statistics in Civil Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1505H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "ME1108L",
+            "course_name": "Workshop Practice · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CE1104",
+            "course_name": "Introduction to Geospatial Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CE1103",
+            "course_name": "Structural Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CE1102",
+            "course_name": "Probability and Statistics in Civil Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1505H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CE1104",
+            "course_name": "Introduction to Geospatial Engineering",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CE1103",
+            "course_name": "Structural Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_BSBE",
+      "name": "Year 1 · Biosciences and Bioengineering",
+      "department": "Biosciences and Bioengineering",
+      "default_room_id": "5406",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CL1102",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1506H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CH1106H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "ME1103",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "BT1101",
+            "course_name": "Biochemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1312H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CL1102",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1506H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CH1106H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "BT1101",
+            "course_name": "Biochemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1103",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1312H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CL1102",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1506H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "DA1101H",
+            "course_name": "Fundamentals of Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CH1106H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1103",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1312H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CL1102",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "DA1101H",
+            "course_name": "Fundamentals of Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1506H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CH1106H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1103",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "BT1101",
+            "course_name": "Biochemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "DA1101H",
+            "course_name": "Fundamentals of Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5404"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_CL",
+      "name": "Year 1 · Chemical Engineering",
+      "department": "Chemical Engineering",
+      "default_room_id": "5304",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CL1101",
+            "course_name": "Chemical Engineering Fundamentals",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CH1102H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EE1107H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "MA1507H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "EE1111L",
+            "course_name": "Basic Electronics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CL1101",
+            "course_name": "Chemical Engineering Fundamentals",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CH1102H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "MA1507H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "PH1101L",
+            "course_name": "Physics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "EE1107H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CL1101",
+            "course_name": "Chemical Engineering Fundamentals",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CH1102H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "EE1107H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CL1101",
+            "course_name": "Chemical Engineering Fundamentals",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CH1109L",
+            "course_name": "Chemistry Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CH1102H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "EE1107H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1507H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_EP",
+      "name": "Year 1 · Engineering Physics",
+      "department": "Engineering Physics",
+      "default_room_id": "5302",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CS1104",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1508H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CH1103H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "PH1130",
+            "course_name": "Classical Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "PH1100L",
+            "course_name": "General Physics Lab - I · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1104",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CS1104",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1508H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CH1103H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "ME1109L",
+            "course_name": "Workshop Practice · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1130",
+            "course_name": "Classical Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1104",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CS1104",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1508H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CH1103H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1130",
+            "course_name": "Classical Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1104",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1104",
+            "course_name": "Programming and Data Structures",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1108L",
+            "course_name": "Programming and Data Structures Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1508H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CH1103H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1130",
+            "course_name": "Classical Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_CST",
+      "name": "Year 1 · Chemical Science and Technology",
+      "department": "Chemical Science and Technology",
+      "default_room_id": "5301",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CL1103",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1509H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CH1112",
+            "course_name": "Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "ME1105",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1313H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CL1103",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1509H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CH1112",
+            "course_name": "Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CH1113L",
+            "course_name": "Chemical Technology Lab - I · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1105",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1313H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CL1103",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1509H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "PH1102L",
+            "course_name": "Physics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CH1112",
+            "course_name": "Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1105",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1313H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CL1103",
+            "course_name": "Fundamentals of Process Calculations",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1509H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CH1112",
+            "course_name": "Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1105",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5301"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_MNC",
+      "name": "Year 1 · Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "default_room_id": "5305",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CS1109",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CH1108H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "ME1106",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "MA1510H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1314H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CS1109",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CH1108H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "MA1510H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1111L",
+            "course_name": "Computing Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1106",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1314H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CS1109",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CH1110L",
+            "course_name": "Chmistry Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CH1108H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1106",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1314H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1109",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CH1108H",
+            "course_name": "Basic Organic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1106",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1510H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_DSAI",
+      "name": "Year 1 · Data Science and Artificial Intelligence",
+      "department": "Data Science and Artificial Intelligence",
+      "default_room_id": "5305",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CS1110",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1511H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "DA1102",
+            "course_name": "Introduction to Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "DA1103",
+            "course_name": "Foundations of Artificial Intelligence",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "PH1315H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CS1110",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1511H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "DA1103",
+            "course_name": "Foundations of Artificial Intelligence",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CS1112L",
+            "course_name": "Computing Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "DA1102",
+            "course_name": "Introduction to Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "PH1315H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CS1110",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1511H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "PH1103L",
+            "course_name": "Physics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "DA1102",
+            "course_name": "Introduction to Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "PH1315H",
+            "course_name": "Modern Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CS1110",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5305"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1511H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "DA1102",
+            "course_name": "Introduction to Data Science",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "DA1103",
+            "course_name": "Foundations of Artificial Intelligence",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5306"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_EN",
+      "name": "Year 1 · Energy Engineering",
+      "department": "Energy Engineering",
+      "default_room_id": "5302",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "MA1512H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "CH1105H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EE1108H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "EN1101",
+            "course_name": "Engineering Thermodynamics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "EE1112L",
+            "course_name": "Basic Electronics Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "ME1107",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "MA1512H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "CH1105H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "EN1101",
+            "course_name": "Engineering Thermodynamics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "ME1110L",
+            "course_name": "Workshop Practice · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "EE1108H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "ME1107",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "MA1512H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 7,
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "course_code": "CH1111L",
+            "course_name": "Chemistry Lab · room TBC",
+            "is_lab": true,
+            "building_code": "CORE5",
+            "room_id": "LOCATION_TBC",
+            "route_available": false
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "CH1105H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "EE1108H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "ME1107",
+            "course_name": "Engineering Mechanics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "MA1512H",
+            "course_name": "Multi Variable Calculus",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5406"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "CH1105H",
+            "course_name": "Basic Inorganic Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "EE1108H",
+            "course_name": "Digital and Analog Electronics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5304"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "EN1101",
+            "course_name": "Engineering Thermodynamics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5302"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_BSE",
+      "name": "Year 1 · Biomedical Science and Engineering",
+      "department": "Biomedical Science and Engineering",
+      "default_room_id": "5402",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "HT1101",
+            "course_name": "Multivariable Calculus and Linear Algebra",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "HT1102",
+            "course_name": "Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "HT1103",
+            "course_name": "Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "HT1104",
+            "course_name": "Basic Electrical Sciences",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "HT1106",
+            "course_name": "Organisation of Human Body",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          }
+        ],
+        "TUESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "HT1105",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "HT1101",
+            "course_name": "Multivariable Calculus and Linear Algebra",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "HT1102",
+            "course_name": "Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "HT1103",
+            "course_name": "Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 5,
+            "start_time": "12:00",
+            "end_time": "12:55",
+            "course_code": "HT1106",
+            "course_name": "Organisation of Human Body",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          }
+        ],
+        "WEDNESDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "HT1104",
+            "course_name": "Basic Electrical Sciences",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "HT1105",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "HT1101",
+            "course_name": "Multivariable Calculus and Linear Algebra",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "HT1102",
+            "course_name": "Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          }
+        ],
+        "THURSDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "HT1103",
+            "course_name": "Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "HT1104",
+            "course_name": "Basic Electrical Sciences",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "HT1105",
+            "course_name": "Introduction to Computing",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "HT1101",
+            "course_name": "Multivariable Calculus and Linear Algebra",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          }
+        ],
+        "FRIDAY": [
+          {
+            "period": 1,
+            "start_time": "08:00",
+            "end_time": "08:55",
+            "course_code": "HT1102",
+            "course_name": "Physics",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 2,
+            "start_time": "09:00",
+            "end_time": "09:55",
+            "course_code": "HT1103",
+            "course_name": "Chemistry",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 3,
+            "start_time": "10:00",
+            "end_time": "10:55",
+            "course_code": "HT1104",
+            "course_name": "Basic Electrical Sciences",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          },
+          {
+            "period": 4,
+            "start_time": "11:00",
+            "end_time": "11:55",
+            "course_code": "HT1106",
+            "course_name": "Organisation of Human Body",
+            "is_lab": false,
+            "building_code": "CORE5",
+            "room_id": "5402"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "FY_BDES",
+      "name": "Year 1 · Design",
+      "department": "Design",
+      "default_room_id": "LOCATION_TBC",
+      "default_building_code": "CORE5",
+      "default_floor": 0,
+      "schedule": {
+        "MONDAY": [],
+        "TUESDAY": [],
+        "WEDNESDAY": [],
+        "THURSDAY": [],
+        "FRIDAY": []
+      }
+    }
+  ],
+  "lab_routing_rules": [],
+  "first_year_course_catalog": [
+    {
+      "course_code": "CS1113",
+      "course_name": "Introduction to Programming",
+      "original_assignment": "A D1 5405 deepkesh",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "CS1115",
+      "course_name": "Discrete Mathematics",
+      "original_assignment": "E A1 5405 khushraj",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "E",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "CS1116H",
+      "course_name": "Introduction to Computer Systems",
+      "original_assignment": "C C1 5405 Pre-midsem t.venkat",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "EE1101H",
+      "course_name": "Electric Circuits",
+      "original_assignment": "D F1 5405 Pre-midsem deb.sikdar",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "EE1105H",
+      "course_name": "Digital and Analog Electronics",
+      "original_assignment": "D F1 5405 Post-midsem deb.sikdar",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "MA1301H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5405 Pre-midsem pati",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "MA1501H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5405 Post-midsem pati",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5405"
+      ]
+    },
+    {
+      "course_code": "CS1114L",
+      "course_name": "Programming Lab",
+      "original_assignment": "MON (2-5 PM) - deepkesh",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "MONDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "EE1109L",
+      "course_name": "Basic Electronics Lab",
+      "original_assignment": "FRI (2-5 PM) - sonkar",
+      "section_id": "FY_CSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "FRIDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CS1101",
+      "course_name": "Programming and Data Structures",
+      "original_assignment": "F A1 5403 moumita.patra,",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "ME1101",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "D D1 5403 uday",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "PH1110H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5403 Pre-midsem sayan.chakrabarti",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "PH1310H",
+      "course_name": "Modern Physics",
+      "original_assignment": "E E1 5403 Post-midsem aksarma",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "EE1113",
+      "course_name": "Circuit Theory",
+      "original_assignment": "C C1 5403 sreenathjg",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "C",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "MA1302H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5403 Pre-midsem kvsrikanth",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "MA1502H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5403 Post-midsem kvsrikanth",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5403"
+      ]
+    },
+    {
+      "course_code": "CS1105L",
+      "course_name": "Programming and Data Structures Lab",
+      "original_assignment": "WED (2-5 PM) - moumita.patra,",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "EE1114L",
+      "course_name": "Electronics Workshop",
+      "original_assignment": "THU (2-5 PM) - mahimaarrawatia",
+      "section_id": "FY_ECE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "THURSDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CS1102",
+      "course_name": "Programming and Data Structures",
+      "original_assignment": "A A1 5302 hemangee, jatin",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "ME1102",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "D D1 5301 pankaj.biswas",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "PH1111H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5301 Pre-midsem pamu",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "PH1311H",
+      "course_name": "Modern Physics",
+      "original_assignment": "E E1 5301 Post-midsem sovan",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "EE1115",
+      "course_name": "Principles of Electrical Engineering",
+      "original_assignment": "C C1 5306 snath",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "C",
+      "room_ids": [
+        "5306"
+      ]
+    },
+    {
+      "course_code": "MA1303H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5301 Pre-midsem rupam",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "MA1503H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5301 Post-midsem rupam",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "CS1106L",
+      "course_name": "Programming and Data Structures Lab",
+      "original_assignment": "THU (2-5 PM) - hemangee, jatin",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "THURSDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "EE1116L",
+      "course_name": "Electrical Workshop",
+      "original_assignment": "WED (2-5 PM) - snath",
+      "section_id": "FY_EEE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CS1103",
+      "course_name": "Programming and Data Structures",
+      "original_assignment": "F A1 5303 hemangee, jatin",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5303"
+      ]
+    },
+    {
+      "course_code": "ME1111",
+      "course_name": "Manufacturing Practices",
+      "original_assignment": "E - 5303/5306 snj, spal, rkmittal,ganu",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    },
+    {
+      "course_code": "EE1102H",
+      "course_name": "Electric Circuits",
+      "original_assignment": "D F1 5303 Pre-midsem chitra",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5303"
+      ]
+    },
+    {
+      "course_code": "EE1106H",
+      "course_name": "Digital and Analog Electronics",
+      "original_assignment": "D F1 5303 Post-midsem chitra",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5303"
+      ]
+    },
+    {
+      "course_code": "ME1112",
+      "course_name": "Engineering Materials",
+      "original_assignment": "A C1 5303/5306 kanagaraj, pkhanikar",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5303",
+        "5306"
+      ]
+    },
+    {
+      "course_code": "MA1304H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5303 Pre-midsem bdeka",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5303"
+      ]
+    },
+    {
+      "course_code": "MA1504H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5303 Post-midsem bdeka",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5303"
+      ]
+    },
+    {
+      "course_code": "CS1107L",
+      "course_name": "Programming and Data Structures Lab",
+      "original_assignment": "FRI (2-5 PM) - hemangee, jatin",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "FRIDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "EE1110L",
+      "course_name": "Basic Electronics Lab",
+      "original_assignment": "TUE (2-5 PM) - sonkar",
+      "section_id": "FY_ME",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CE1101",
+      "course_name": "Introduction to Civil Engineering",
+      "original_assignment": "F F1 5404 Tuesday only darun",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "CE1102",
+      "course_name": "Probability and Statistics in Civil Engineering",
+      "original_assignment": "A A1 5404",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "CE1103",
+      "course_name": "Structural Mechanics",
+      "original_assignment": "D D1 5404 budhaditya.hazra",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "CE1104",
+      "course_name": "Introduction to Geospatial Engineering",
+      "original_assignment": "C C1 5404",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "C",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "PH1112H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5404 Pre-midsem dborah",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "MA1305H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5404 Pre-midsem satyajitp",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "MA1505H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5404 Post-midsem shyamashree",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "ME1108L",
+      "course_name": "Workshop Practice",
+      "original_assignment": "WED (2-5 PM) - kanagaraj",
+      "section_id": "FY_CE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CH1101H",
+      "course_name": "Basic Inorganic Chemistry",
+      "original_assignment": "C C1 5406 Pre-midsem akshaikumar",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "CH1106H",
+      "course_name": "Basic Organic Chemistry",
+      "original_assignment": "C C1 5406 Post-midsem bmandal",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "CL1102",
+      "course_name": "Fundamentals of Process Calculations",
+      "original_assignment": "A A1 5406 v.prabu",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "PH1312H",
+      "course_name": "Modern Physics",
+      "original_assignment": "E E1 5404 Post-midsem dpal",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "ME1103",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "D D1 5406 vinayak",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "MA1306H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5406 Pre-midsem mgpp",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "MA1506H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5406 Post-midsem mgpp",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "BT1101",
+      "course_name": "Biochemistry",
+      "original_assignment": "F F1 5406 spkanaujia",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "DA1101H",
+      "course_name": "Fundamentals of Data Science",
+      "original_assignment": "G G1 5404 Post-midsem ratnajit",
+      "section_id": "FY_BSBE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "G",
+      "room_ids": [
+        "5404"
+      ]
+    },
+    {
+      "course_code": "CH1102H",
+      "course_name": "Basic Inorganic Chemistry",
+      "original_assignment": "C C1 5304 Post-midsem sastricv",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "CH1107H",
+      "course_name": "Basic Organic Chemistry",
+      "original_assignment": "C C1 5304 Pre-midsem dsrimani",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "EE1103H",
+      "course_name": "Electric Circuits",
+      "original_assignment": "D F1 5304 Pre-midsem smajhi",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "EE1107H",
+      "course_name": "Digital and Analog Electronics",
+      "original_assignment": "D F1 5304 Post-midsem sureshsundaram",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "PH1113H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5304 Pre-midsem sbdas",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "MA1307H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "F B1 5304 Pre-midsem satyajitp",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "F",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "MA1507H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "F B1 5304 Post-midsem shyamashree",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "F",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "CL1101",
+      "course_name": "Chemical Engineering Fundamentals",
+      "original_assignment": "A A1 5304 vmoholkar",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "CH1109L",
+      "course_name": "Chemistry Lab",
+      "original_assignment": "THU (2-5 PM) - achalkumar,kbhabak",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "THURSDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "EE1111L",
+      "course_name": "Basic Electronics Lab",
+      "original_assignment": "MON (2-5 PM) - sonkar",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "MONDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "PH1101L",
+      "course_name": "Physics Lab",
+      "original_assignment": "TUE (2-5 PM) - bkhazra, pamu, subhra",
+      "section_id": "FY_CL",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CH1103H",
+      "course_name": "Basic Inorganic Chemistry",
+      "original_assignment": "C C1 5302 Post-midsem kingsuk",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "CS1104",
+      "course_name": "Programming and Data Structures",
+      "original_assignment": "A A1 5302 hemangee, jatin",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "ME1104",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "E D1 5302 bsandeepr",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "E",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "MA1308H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5302 Pre-midsem anjankc",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "MA1508H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5302 Post-midsem anjankc",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "PH1130",
+      "course_name": "Classical Mechanics",
+      "original_assignment": "D E1 5302 udaymaiti",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "CS1108L",
+      "course_name": "Programming and Data Structures Lab",
+      "original_assignment": "THU (2-5 PM) - hemangee, jatin",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "THURSDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "ME1109L",
+      "course_name": "Workshop Practice",
+      "original_assignment": "TUE (2-5 PM) - kanagaraj",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "PH1100L",
+      "course_name": "General Physics Lab - I",
+      "original_assignment": "MON (2-5 PM) - bkhazra, pamu, subhra",
+      "section_id": "FY_EP",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "MONDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CL1103",
+      "course_name": "Fundamentals of Process Calculations",
+      "original_assignment": "A A1 5301 rprasanna",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "ME1105",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "D D1 5301 pankaj.biswas",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "PH1114H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5301 Pre-midsem pamu",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "PH1313H",
+      "course_name": "Modern Physics",
+      "original_assignment": "E E1 5301 Post-midsem sovan",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "MA1309H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5301 Pre-midsem rupam",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "MA1509H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5301 Post-midsem rupam",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "CH1112",
+      "course_name": "Organic Chemistry",
+      "original_assignment": "C C1 5301 span",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "C",
+      "room_ids": [
+        "5301"
+      ]
+    },
+    {
+      "course_code": "CH1113L",
+      "course_name": "Chemical Technology Lab - I",
+      "original_assignment": "TUE (2-5 PM) - achalkumar,kbhabak",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "PH1102L",
+      "course_name": "Physics Lab",
+      "original_assignment": "WED (2-5 PM) - bkhazra, pamu, subhra",
+      "section_id": "FY_CST",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CH1104H",
+      "course_name": "Basic Inorganic Chemistry",
+      "original_assignment": "C C1 5305 Pre-midsem gdas",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "CH1108H",
+      "course_name": "Basic Organic Chemistry",
+      "original_assignment": "C C1 5305 Post-midsem ckjana",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "PH1115H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5305 Pre-midsem padmakumarp",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "PH1314H",
+      "course_name": "Modern Physics",
+      "original_assignment": "E E1 5305 Post-midsem pratima",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "MA1310H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "F B1 5305 Pre-midsem anjankc",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "F",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "MA1510H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "F B1 5305 Post-midsem anjankc",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "F",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "ME1106",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "D D1 5305 tapan.mankodi",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "CS1109",
+      "course_name": "Introduction to Computing",
+      "original_assignment": "A A1 5305 moumita.patra,",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "CH1110L",
+      "course_name": "Chmistry Lab",
+      "original_assignment": "WED (2-5 PM) - achalkumar,kbhabak",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CS1111L",
+      "course_name": "Computing Lab",
+      "original_assignment": "TUE (2-5 PM) - moumita.patra,",
+      "section_id": "FY_MNC",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "PH1116H",
+      "course_name": "Introductory Classical Mechanics",
+      "original_assignment": "E E1 5305 Pre-midsem padmakumarp",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "PH1315H",
+      "course_name": "Modern Physics",
+      "original_assignment": "E E1 5305 Post-midsem pratima",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "E",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "MA1311H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5302 Pre-midsem anjankc",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "MA1511H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5302 Post-midsem anjankc",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "DA1102",
+      "course_name": "Introduction to Data Science",
+      "original_assignment": "D C1 5306 pwpatil,dneog",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5306"
+      ]
+    },
+    {
+      "course_code": "DA1103",
+      "course_name": "Foundations of Artificial Intelligence",
+      "original_assignment": "F D1 5306 neerajs",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5306"
+      ]
+    },
+    {
+      "course_code": "CS1110",
+      "course_name": "Introduction to Computing",
+      "original_assignment": "A A1 5305 moumita.patra,",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5305"
+      ]
+    },
+    {
+      "course_code": "CS1112L",
+      "course_name": "Computing Lab",
+      "original_assignment": "TUE (2-5 PM) - moumita.patra,",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "PH1103L",
+      "course_name": "Physics Lab",
+      "original_assignment": "WED (2-5 PM) - bkhazra, pamu, subhra",
+      "section_id": "FY_DSAI",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "CH1105H",
+      "course_name": "Basic Inorganic Chemistry",
+      "original_assignment": "C C1 5302 Post-midsem kingsuk",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "C",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "EE1104H",
+      "course_name": "Electric Circuits",
+      "original_assignment": "D F1 5304 Pre-midsem smajhi",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "EE1108H",
+      "course_name": "Digital and Analog Electronics",
+      "original_assignment": "D F1 5304 Post-midsem sureshsundaram",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "D",
+      "room_ids": [
+        "5304"
+      ]
+    },
+    {
+      "course_code": "MA1312H",
+      "course_name": "Single Variable Calculus",
+      "original_assignment": "B B1 5406 Pre-midsem mgpp",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "pre-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "MA1512H",
+      "course_name": "Multi Variable Calculus",
+      "original_assignment": "B B1 5406 Post-midsem mgpp",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "post-midsem",
+      "class_slot": "B",
+      "room_ids": [
+        "5406"
+      ]
+    },
+    {
+      "course_code": "ME1107",
+      "course_name": "Engineering Mechanics",
+      "original_assignment": "E D1 5302 bsandeepr",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "E",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "EN1101",
+      "course_name": "Engineering Thermodynamics",
+      "original_assignment": "F A1 5302 f.khalid",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5302"
+      ]
+    },
+    {
+      "course_code": "CH1111L",
+      "course_name": "Chemistry Lab",
+      "original_assignment": "WED (2-5 PM) - achalkumar,kbhabak",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "WEDNESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "ME1110L",
+      "course_name": "Workshop Practice",
+      "original_assignment": "TUE (2-5 PM) - kanagaraj",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "TUESDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "EE1112L",
+      "course_name": "Basic Electronics Lab",
+      "original_assignment": "MON (2-5 PM) - sonkar",
+      "section_id": "FY_EN",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "day": "MONDAY",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "location_status": "Lab room not specified by source; ask department"
+    },
+    {
+      "course_code": "HT1101",
+      "course_name": "Multivariable Calculus and Linear Algebra",
+      "original_assignment": "A A1 5402 mgpp",
+      "section_id": "FY_BSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "A",
+      "room_ids": [
+        "5402"
+      ]
+    },
+    {
+      "course_code": "HT1102",
+      "course_name": "Physics",
+      "original_assignment": "B D1 5402 erwin",
+      "section_id": "FY_BSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "B",
+      "room_ids": [
+        "5402"
+      ]
+    },
+    {
+      "course_code": "HT1103",
+      "course_name": "Chemistry",
+      "original_assignment": "C C1 5402 rajubej",
+      "section_id": "FY_BSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "C",
+      "room_ids": [
+        "5402"
+      ]
+    },
+    {
+      "course_code": "HT1104",
+      "course_name": "Basic Electrical Sciences",
+      "original_assignment": "D B1 5402 deb.sikdar,rjain1992",
+      "section_id": "FY_BSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "D",
+      "room_ids": [
+        "5402"
+      ]
+    },
+    {
+      "course_code": "HT1105",
+      "course_name": "Introduction to Computing",
+      "original_assignment": "E E1 5402 teena,rajivkar",
+      "section_id": "FY_BSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "E",
+      "room_ids": [
+        "5402"
+      ]
+    },
+    {
+      "course_code": "HT1106",
+      "course_name": "Organisation of Human Body",
+      "original_assignment": "F F1 5402 rthu",
+      "section_id": "FY_BSE",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester",
+      "class_slot": "F",
+      "room_ids": [
+        "5402"
+      ]
+    },
+    {
+      "course_code": "DD1101S",
+      "course_name": "Introduction to Design",
+      "original_assignment": "A Design",
+      "section_id": "FY_BDES",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    },
+    {
+      "course_code": "DD1102",
+      "course_name": "Representation Techniques",
+      "original_assignment": "- Design",
+      "section_id": "FY_BDES",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    },
+    {
+      "course_code": "DD1103S",
+      "course_name": "Elements of Design",
+      "original_assignment": "B Design",
+      "section_id": "FY_BDES",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    },
+    {
+      "course_code": "DD1104",
+      "course_name": "Applied Science for Design",
+      "original_assignment": "C Design",
+      "section_id": "FY_BDES",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    },
+    {
+      "course_code": "DD1105",
+      "course_name": "Tinkering studio",
+      "original_assignment": "D Design",
+      "section_id": "FY_BDES",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    },
+    {
+      "course_code": "DD1106S",
+      "course_name": "Emerging Technologies for Design",
+      "original_assignment": "- Design",
+      "section_id": "FY_BDES",
+      "source_url": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+      "semester_phase": "full-semester"
+    }
+  ],
+  "demo_metadata": {
+    "is_demo": true,
+    "attendance_authority": false,
+    "timetable_source": "https://www.iitg.ac.in/acad/pdfs/ctt/1st_year_timetable_classroom.pdf",
+    "slot_grid_source": "https://www.iitg.ac.in/chemeng/pdf/time_table_july_nov_2026.pdf",
+    "map_source": "https://www.openstreetmap.org/api/0.6/map?bbox=91.685,26.18,91.70,26.20",
+    "map_attribution": "© OpenStreetMap contributors, ODbL 1.0",
+    "limitations": [
+      "The official 2026 department file has a stale 2025 slot-grid caption; weekly theory expansion is provisional.",
+      "Generic slot expansion does not establish exact contact hours or tutorial assignments for every course.",
+      "Only explicit 14:00–17:00 lab times are included; lab rooms remain unconfirmed and cannot be routed.",
+      "Room-to-Core-5 association is inferred from numbering; floors are unverified.",
+      "Alternative room assignments use the first listed room for demonstration; consult original PDF.",
+      "Pre-midsem courses remain in catalog but are omitted from the post-midsem demo schedule.",
+      "BDes studio timings and rooms require department confirmation; no invented times.",
+      "Map points are approximate and incomplete; this is not a majority-of-all-campus-rooms survey."
+    ]
+  }
+}
