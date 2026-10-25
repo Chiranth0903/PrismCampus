@@ -77,6 +77,13 @@ git clone https://github.com/chiranth0903/PrismCampus.git
 cd PrismCampus
 ```
 
+The bundled offline speech archive is tracked with **Git LFS**. With [Git LFS installed](https://git-lfs.com/), run these commands after cloning to obtain the actual model file:
+
+```bash
+git lfs install
+git lfs pull
+```
+
 Copy `server/.env.example` to `server/.env.local`. Set `PRISM_ADMIN_PASSWORD` to a strong password of at least 12 characters. Configure cloud-provider settings only for integrations you use.
 
 On Windows:
@@ -159,6 +166,6 @@ These checks do not replace microphone, GPS or disconnected-network verification
 
 ## Repository notes
 
-`.gitignore` excludes private settings, APKs, runtime databases and sessions, model downloads, signing keys, logs and temporary profiling files. Keep these local and do not force-add secrets.
+`.gitignore` excludes private settings, APKs, runtime databases and sessions, separately downloaded Qwen weights, signing keys, logs and temporary profiling files. The bundled Vosk speech archive is included through Git LFS. Keep private files local and do not force-add secrets.
 
 Third-party code, models and map data retain their respective licenses and attribution requirements. No license is currently declared for the original PrismCampus code.
